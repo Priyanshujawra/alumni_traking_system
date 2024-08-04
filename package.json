@@ -30,7 +30,8 @@
     "react-transition-group": "^4.4.5",
     "splitting": "^1.1.0",
     "swiper": "^11.1.4",
-    "three": "^0.165.0"
+    "three": "^0.165.0",
+    "vite-plugin-env-compatible": "^2.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
