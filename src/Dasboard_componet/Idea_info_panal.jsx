@@ -3,7 +3,7 @@ import Line_nimation from "../components/Line_nimation";
 import { fetch_alumni_idea } from "../components/strapi";
 
 function Idea_info_panal() {
-  const [ideas, setideas] = useState();
+  const [ideas, setideas] = useState([]);
 
   useEffect(() => {
     const postdata = async () => {
